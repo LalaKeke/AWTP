@@ -1,4 +1,4 @@
-# HiPAD-PNN
+# AWTP
 
 HiPAD-PNN connects HiP-AD perception/planning with a physics-aware secondary
 planner. The release path uses HiP-AD route intent, temporal actor alignment
