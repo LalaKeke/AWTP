@@ -1,0 +1,10 @@
+HiPAD-PNN
+Copyright 2025-2026 the HiP-AD and HiPAD-PNN contributors.
+
+This distribution contains modified and extended code derived from HiP-AD.
+HiP-AD is distributed under the Apache License, Version 2.0. Modified files
+retain their original notices where present. See LICENSE and
+THIRD_PARTY_LICENSES.md.
+
+Model weights, datasets, generated training tensors, and evaluation results
+are intentionally not included in this source distribution.

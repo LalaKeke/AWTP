@@ -1,0 +1,64 @@
+# Editors and Python caches
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+*.so
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+wandb/
+
+# Datasets, checkpoints, and generated outputs
+/data/*
+!/data/splits/
+/data/splits/*
+!/data/splits/bench2drive_base_train_val_split.json
+/datasets/
+/checkpoints/
+/ckpts/
+/weights/
+/outputs/
+/evaluation/
+/work_dirs/
+/runs/
+/runs_*/
+/logs/
+/tb/
+/carla/
+
+# Binary ML artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+*.pkl
+*.pickle
+*.npy
+*.npz
+events.out.tfevents*
+
+# Runtime artifacts
+nohup.out
+*.log
+*.pid
+*.swp
+*.mp4
+*.avi
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
